@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(7, 7, 7);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+
+}
+
+header {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 30px;
+}
+
+ul {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+
+}
+
+li {
+    list-style: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 30px;
+    transition: .5s;
+
+
+}
+
+li:hover {
+    color: rgb(255, 238, 0);
+}
+
+#logo {
+    width: 150px;
+    margin: 5px 0;
+
+}
+
+div {
+    box-sizing: border-box;
+    position: fixed;
+}
+
+#banner {
+    background-image: url(https://gazetadasemana.com.br/images/noticias/88123/04101453_Assistncia.jpg.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    opacity: 50%;
+}
+
+.div2 {
+    color: rgb(255, 238, 0);
+    font-size: 33px;
+    text-align: center;
+    opacity: 70%;
+    top: 20%;
+}
+
+#banner-servicos {
+
+    opacity: 30%;
+    background-position: 50% 50%;
+    background-size: auto;
+    width: 100%;
+    height: 900px;
+    background-image: url(https://www.fourtech.com.br/wp-content/uploads/2010/11/servico-de-notebook-reparo.jpg);
+}
+
+.div-servicos {
+    color: rgb(51, 255, 0);
+    height: 900px;
+    width: 100vw;
+    font-size: 23px;
+    text-align: center;
+    opacity: 70%;
+    top: 25%;
+}
+
+#banner-contato {
+    width: 100%;
+    height: 100%;
+    background-image: url(https://static.wixstatic.com/media/c8d4eb_b36ff62ea2ed4006b4239c1b5020da0b~mv2.png/v1/fill/w_560,h_360,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/contact-us.png);
+}
+
+#div-contato {
+    color: chartreuse;
+    font-size: 32px;
+    text-align: center;
+    top: 19%;
+    align-items: center;
+    height: 900px;
+    opacity: 90%;
+
+}
+
+.email {
+    color: aliceblue;
+}
+
+#localizacao {
+    margin: 10% 40%;
+}
+
+.banner-localizacao {
+    opacity: 10%;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://cdn-icons-png.flaticon.com/512/500/500745.png);
+
+}
